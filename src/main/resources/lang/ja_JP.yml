@@ -1,0 +1,32 @@
+language-format-version: 1
+
+console:
+  enabled: 'bm-minecraft-more-exp {version} を有効にしました。'
+  disabled: 'bm-minecraft-more-exp を停止しました。'
+  unknown-language: '不明な言語「{language}」です。{fallback} を使用します。'
+  bundled-defaults-load-failed: '組み込み言語のデフォルトを読み込めませんでした：{resource}'
+  language-upgrade-failed: '言語ファイル {file} を更新できませんでした：{error}'
+  language-update-failed: '言語ファイルを更新できませんでした：{file}'
+  missing-command: 'plugin.yml にコマンドがありません：{command}'
+  placed-blocks-save-failed: 'placed-blocks.yml を保存できませんでした：{error}'
+
+messages:
+  help-header: '&6&l═ bm-minecraft-more-exp ═'
+  help-toggle: '&e/bm-minecraft-more-exp 0/1 &f- 有効／無効を切り替え'
+  help-reload: '&e/bm-minecraft-more-exp reload &f- 設定を再読み込み'
+  help-info: '&e/bm-minecraft-more-exp info &f- プラグイン情報を表示'
+  help-status: '&e/bm-minecraft-more-exp status &f- 有効状態と統計を表示'
+  help-set: '&e/bm-minecraft-more-exp set X &f- 経験値を設定'
+  help-footer: '&6&l═══════════════════════════════'
+  no-permission: '&a[経験] &cエラー：&fこのコマンドを使用する権限がありません。'
+  invalid-number: '&a[経験] &cエラー：&f0 以上の整数の経験値を入力してください。'
+  unknown-command: '&a[経験] &cエラー：&f不明なコマンドです。'
+  usage-main: '&a[経験] &f使い方 &e/bm-minecraft-more-exp [0|1|info|status|reload|set <数値>]'
+  usage-set: '&a[経験] &f使い方 &e/bm-minecraft-more-exp set <数値>'
+  config-save-failed: '&a[経験] &cエラー：&f設定の保存に失敗しました。'
+  experience-set: '&a[経験] &f自然ブロックごとの経験値を &e{amount} &fに設定しました。'
+  reloaded: '&a[経験] &f設定を再読み込みしました。'
+  enabled: '&a[経験] &f採掘経験値機能を&e有効&fにしました。'
+  disabled: '&a[経験] &f採掘経験値機能を&e無効&fにしました。'
+  info-version: '&a[経験] &fバージョン：&e{version}'
+  status: '&a[経験] &f有効：&e{enabled} &f、1 ブロックの経験値：&e{amount} &f、追跡済み人為ブロック：&e{tracked}'

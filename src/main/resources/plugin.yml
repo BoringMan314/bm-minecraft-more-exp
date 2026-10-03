@@ -1,0 +1,22 @@
+name: bm-minecraft-more-exp
+version: "26.3_0.0.1"
+main: bm.minecraft.more.exp.BmMinecraftMoreExpPlugin
+api-version: '26.3'
+description: "更多經驗。"
+authors:
+  - "[B.M] 圓周率™3.14"
+website: "http://exnormal.com:81/"
+
+commands:
+  bm-minecraft-more-exp:
+    description: 管理 bm-minecraft-more-exp。
+    usage: /bm-minecraft-more-exp [0|1|info|status|reload|set <數量>]
+    permission: bm-minecraft-more-exp.admin
+
+permissions:
+  bm-minecraft-more-exp.receive:
+    description: 允許玩家獲得挖礦經驗。
+    default: true
+  bm-minecraft-more-exp.admin:
+    description: 允許管理 bm-minecraft-more-exp。
+    default: op

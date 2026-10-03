@@ -1,0 +1,32 @@
+language-format-version: 1
+
+console:
+  enabled: 'bm-minecraft-more-exp {version} enabled.'
+  disabled: 'bm-minecraft-more-exp disabled.'
+  unknown-language: 'Unknown language "{language}"; using {fallback}.'
+  bundled-defaults-load-failed: 'Could not load bundled language defaults: {resource}'
+  language-upgrade-failed: 'Could not upgrade language file {file}: {error}'
+  language-update-failed: 'Could not update language file: {file}'
+  missing-command: 'Missing command in plugin.yml: {command}'
+  placed-blocks-save-failed: 'Could not save placed-blocks.yml: {error}'
+
+messages:
+  help-header: '&6&l═ bm-minecraft-more-exp ═'
+  help-toggle: '&e/bm-minecraft-more-exp 0/1 &f- Enable or disable rewards'
+  help-reload: '&e/bm-minecraft-more-exp reload &f- Reload configuration'
+  help-info: '&e/bm-minecraft-more-exp info &f- Show plugin information'
+  help-status: '&e/bm-minecraft-more-exp status &f- Show reward status'
+  help-set: '&e/bm-minecraft-more-exp set X &f- Set experience amount'
+  help-footer: '&6&l═══════════════════════════════'
+  no-permission: '&a[Exp] &cError: &fYou do not have permission to use this command.'
+  invalid-number: '&a[Exp] &cError: &fEnter a whole-number experience value of at least 0.'
+  unknown-command: '&a[Exp] &cError: &fUnknown command.'
+  usage-main: '&a[Exp] &fUsage &e/bm-minecraft-more-exp [0|1|info|status|reload|set <amount>]'
+  usage-set: '&a[Exp] &fUsage &e/bm-minecraft-more-exp set <amount>'
+  config-save-failed: '&a[Exp] &cError: &fCould not save configuration.'
+  experience-set: '&a[Exp] &fExperience per natural block is now &e{amount}.'
+  reloaded: '&a[Exp] &fConfiguration reloaded.'
+  enabled: '&a[Exp] &fMining experience rewards are now &eenabled.'
+  disabled: '&a[Exp] &fMining experience rewards are now &edisabled.'
+  info-version: '&a[Exp] &fVersion: &e{version}'
+  status: '&a[Exp] &fEnabled: &e{enabled} &f, XP per block: &e{amount} &f, tracked player blocks: &e{tracked}'

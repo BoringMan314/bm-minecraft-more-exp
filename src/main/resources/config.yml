@@ -1,0 +1,25 @@
+# bm-minecraft-more-exp 設定檔
+
+# 挖礦經驗功能總開關。關閉時不發放經驗，但仍追蹤人為放置的方塊。
+enabled: true
+
+# 每個符合條件的自然固體方塊給予的經驗值。
+experience-per-block: 1
+
+# 只有下列遊戲模式的玩家能獲得挖礦經驗。
+# 可填 SURVIVAL、CREATIVE、ADVENTURE 或 SPECTATOR；不分大小寫。
+allowed-game-modes:
+  - SURVIVAL
+
+# true 時，玩家必須擁有 bm-minecraft-more-exp.receive 權限。
+require-receive-permission: false
+
+# 是否記錄玩家放置的方塊；已記錄方塊永遠不會給予經驗。
+track-player-placed-blocks: true
+
+# 沒有放置紀錄的方塊是否視為自然生成。
+# 插件初次安裝時保留 true，可獎勵既有地形；建立完整紀錄後可設為 false 採嚴格追蹤。
+untracked-blocks-count-as-natural: true
+
+# 每隔幾秒儲存人為方塊紀錄；設為 0 時只會在插件停用時儲存。
+placement-registry-save-interval-seconds: 300

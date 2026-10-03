@@ -1,0 +1,32 @@
+language-format-version: 1
+
+console:
+  enabled: 'bm-minecraft-more-exp {version} 已启用。'
+  disabled: 'bm-minecraft-more-exp 已停用。'
+  unknown-language: '未知语言“{language}”，改用 {fallback}。'
+  bundled-defaults-load-failed: '无法加载内置语言默认值：{resource}'
+  language-upgrade-failed: '无法升级语言文件 {file}：{error}'
+  language-update-failed: '无法更新语言文件：{file}'
+  missing-command: 'plugin.yml 中缺少指令：{command}'
+  placed-blocks-save-failed: '无法保存 placed-blocks.yml：{error}'
+
+messages:
+  help-header: '&6&l═ bm-minecraft-more-exp ═'
+  help-toggle: '&e/bm-minecraft-more-exp 0/1 &f- 开关指令'
+  help-reload: '&e/bm-minecraft-more-exp reload &f- 重新加载配置'
+  help-info: '&e/bm-minecraft-more-exp info &f- 显示插件信息'
+  help-status: '&e/bm-minecraft-more-exp status &f- 查看开关、状态'
+  help-set: '&e/bm-minecraft-more-exp set X &f- 设置经验'
+  help-footer: '&6&l═══════════════════════════════'
+  no-permission: '&a[经验] &c错误：&f你没有使用此指令的权限。'
+  invalid-number: '&a[经验] &c错误：&f请输入 0 或以上的整数经验值。'
+  unknown-command: '&a[经验] &c错误：&f未知指令。'
+  usage-main: '&a[经验] &f用法 &e/bm-minecraft-more-exp [0|1|info|status|reload|set <数值>]'
+  usage-set: '&a[经验] &f用法 &e/bm-minecraft-more-exp set <数值>'
+  config-save-failed: '&a[经验] &c错误：&f配置保存失败。'
+  experience-set: '&a[经验] &f每个原生方块的经验已设为 &e{amount}。'
+  reloaded: '&a[经验] &f配置已重新加载。'
+  enabled: '&a[经验] &f挖矿经验功能已&e开启。'
+  disabled: '&a[经验] &f挖矿经验功能已&e关闭。'
+  info-version: '&a[经验] &f版本：&e{version}'
+  status: '&a[经验] &f启用：&e{enabled} &f，单方块经验：&e{amount} &f，已追踪人造方块：&e{tracked}'
